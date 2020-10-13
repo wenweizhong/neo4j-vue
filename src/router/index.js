@@ -67,7 +67,7 @@ export const constantRoutes = [
       {
         path: 'person',
         name: 'Person',
-        component: () => import('@/views/table/index'),
+        component: () => import('@/views/personform/index'),
         meta: { title: '人', icon: 'table'}
       },
       {
